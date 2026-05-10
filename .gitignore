@@ -36,6 +36,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local planning and reference docs (not part of the site)
+/resources/
+
+# Claude Code internal files
+.claude/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
