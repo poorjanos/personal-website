@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "János Poór — Head of Data Management",
@@ -122,12 +123,20 @@ export default function Home() {
       <header className="border-b border-zinc-200">
         <div className="max-w-2xl mx-auto px-6 py-5 flex items-center justify-between">
           <span className="font-semibold">János Poór</span>
-          <a
-            href="mailto:poorjanos@gmail.com"
-            className="text-sm text-zinc-500 hover:text-blue-600 transition-colors"
-          >
-            poorjanos@gmail.com
-          </a>
+          <nav className="flex items-center gap-6">
+            <Link
+              href="/blog"
+              className="text-sm text-zinc-500 hover:text-blue-600 transition-colors"
+            >
+              Blog
+            </Link>
+            <a
+              href="mailto:poorjanos@gmail.com"
+              className="text-sm text-zinc-500 hover:text-blue-600 transition-colors"
+            >
+              poorjanos@gmail.com
+            </a>
+          </nav>
         </div>
       </header>
 

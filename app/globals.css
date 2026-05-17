@@ -19,3 +19,77 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.prose-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #18181b;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #18181b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-content p {
+  color: #52525b;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.prose-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #52525b;
+}
+
+.prose-content ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #52525b;
+}
+
+.prose-content li {
+  line-height: 1.75;
+  margin-bottom: 0.25rem;
+}
+
+.prose-content a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.prose-content blockquote {
+  border-left: 3px solid #e4e4e7;
+  padding-left: 1rem;
+  color: #71717a;
+  margin: 1.25rem 0;
+}
+
+.prose-content code {
+  font-family: monospace;
+  font-size: 0.9em;
+  background: #f4f4f5;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.prose-content pre {
+  background: #f4f4f5;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+}
+
+.prose-content pre code {
+  background: none;
+  padding: 0;
+}
