@@ -21,7 +21,7 @@ type Company = {
 
 const workExperience: Company[] = [
   {
-    company: "Alfa Biztosító",
+    company: "Alfa VIG Insurance Hungary",
     size: "1,500–2,000 employees",
     roles: [
       {
@@ -143,9 +143,6 @@ export default function Home() {
       <main className="max-w-2xl mx-auto px-6">
         {/* Hero */}
         <section className="py-20 border-b border-zinc-200">
-          <p className="text-sm font-medium text-blue-600 mb-4 tracking-wide uppercase">
-            Head of Data Management · Alfa Biztosító
-          </p>
           <h1 className="text-5xl font-bold tracking-tight mb-6">János Poór</h1>
           <p className="text-lg text-zinc-600 leading-relaxed max-w-xl">
             Data management and analytics leader with 20+ years in banking and
