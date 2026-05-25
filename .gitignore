@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# wrangler / cloudflare
+.wrangler/
+.dev.vars
+
 # local planning and reference docs (not part of the site)
 /resources/
 
