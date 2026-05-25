@@ -7,6 +7,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.janospoor.com"),
   title: "János Poór",
   description:
     "Data management and analytics leader with 20+ years in banking and insurance. Head of Data Management at Alfa Biztosító.",

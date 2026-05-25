@@ -284,8 +284,14 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-zinc-200">
-        <div className="max-w-2xl mx-auto px-6 py-6">
+        <div className="max-w-2xl mx-auto px-6 py-6 flex items-center justify-between">
           <p className="text-sm text-zinc-400">© 2026 János Poór</p>
+          <Link
+            href="/privacy"
+            className="text-sm text-zinc-400 hover:text-blue-600 transition-colors"
+          >
+            Privacy
+          </Link>
         </div>
       </footer>
     </div>
